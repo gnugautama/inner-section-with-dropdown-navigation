@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.hero-img img {
+  width: 500px;
+}
+
+.hero-text {
+  margin-top: 6rem;
+}
+.hero-text h1 {
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  text-align: justify;
+  letter-spacing: 0.5px;
+}
+
+.hero-img .mobile-img {
+  display: none;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 8%);
+}
+
+.btn.btn-login {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  border: none;
+}
+.btn.btn-register {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  border: 2px solid hsl(0, 0%, 41%);
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.company-logo {
+  margin-top: 14vh;
+}
+
+.company-logo img {
+  object-fit: contain;
+}
+/*footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*mobile screen*/
+@media only screen and (max-width: 768px) {
+  .hero-img .mobile-img {
+    display: block;
+  }
+  .hero-img .desktop-img {
+    display: none;
+  }
+
+  .hero-text {
+    text-align: center;
+    /* padding-top: 10px; */
+  }
+  .hero-text h1 {
+    font-size: 40px;
+  }
+  .hero-text p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .company-logo img {
+    object-fit: contain;
+  }
+}
