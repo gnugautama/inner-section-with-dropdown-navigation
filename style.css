@@ -51,12 +51,9 @@ p {
   background-color: hsl(0, 0%, 98%);
 }
 
-.company-logo {
-  margin-top: 14vh;
-}
-
 .company-logo img {
   object-fit: contain;
+  padding-bottom: 0 !important;
 }
 /*footer*/
 .attribution {
@@ -72,6 +69,11 @@ p {
   .hero-img .mobile-img {
     display: block;
   }
+
+  .hero-img .mobile-img img {
+    width: 500px;
+  }
+
   .hero-img .desktop-img {
     display: none;
   }
