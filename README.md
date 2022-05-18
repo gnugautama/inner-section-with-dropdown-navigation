@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5/hub/intro-section-with-dropdown-navigation-Pt0hPQQ_A2)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-Pt0hPQQ_A2)
 - Live Site URL: [Netlify](https://inner-section-with-dropdown-nav.netlify.app/)
 
 ## My process
